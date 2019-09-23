@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 export default class ErrorPage extends React.Component {
-
+    
     render() {
         return (
             <div className='alert alert-danger'>
@@ -11,4 +11,5 @@ export default class ErrorPage extends React.Component {
             </div>
         );
     }
+    
 }
